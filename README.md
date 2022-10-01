@@ -1,6 +1,6 @@
 # tools
 
-Welcom to my tools repository. These are tools that I have used professionally to automate tasks or streamline workflows.
+Welcome to my tools repository. I will share tools that I have used professionally to automate tasks or streamline workflows.
 
 ## barcode generator
 At my current job, we are creating new products all the time. Our manufacturers need PDF barcode sheets for each of these new products and their respective size variants. Initially, this was done by hand for each product using an Adobe InDesign template that needed to be re-linked twice for each product.  
