@@ -2,8 +2,9 @@
 
 At my current job, we are creating new products all the time. Our manufacturers need PDF barcode sheets so they can make stickers to place on all of the products before they ship them. Initially, this was done by hand for each product using an Adobe InDesign template that needed to be re-linked twice for each product. Now I just run this program.
 
-## Objective
+## Objectives
 * Create 2 PDF files for each product in the input csv file -- 1 for Slim Fit sizes and 1 for Classic Fit sizes
+* Output these into results folder './barcode-pdfs'
 * Each PDF must contain a full page of barcode images for each size that the product comes in
 * Program needed to be able to handle varying size scales (i.e. some products come in 33 sizes, 46 sizes, 52 sizes, etc.)
 
