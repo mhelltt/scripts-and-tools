@@ -1,4 +1,4 @@
-# Barcode Template Generator
+# Barcode Sheet Generator
 
 I created this tool to put together barcode sheet pdfs for a clothing brand that I work for. Our manufacturer required that we submit barcodes separated by fit (slim or classic) for each product.
 
