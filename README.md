@@ -2,10 +2,10 @@
 
 Welcome to my tools repository. I will share tools that I have used professionally to automate tasks or streamline workflows.
 
-## barcode-template-generator
-At my current job, we are creating new products all the time. Our manufacturers need PDF barcode sheets so they can make stickers to place on all of the products before they ship them. 
+## Barcode Sheet Generator
+I created this tool to put together barcode sheet pdfs for a clothing brand that I work for. Our manufacturer required that we submit barcodes separated by fit (slim or classic) for each product.
 
-Initially, this was done by hand for each product using an Adobe InDesign template that needed to be re-linked twice for each product. This took forever, so I wrote this program.
+Initially, this was done by hand for each product using an Adobe InDesign template that needed to be re-linked twice for each product. This took forever and required a lot of clicking, so I wrote this program.
 
 This program:  
 * takes a csv input file with SKU's, Titles, and Product Names
