@@ -2,7 +2,7 @@
 
 Welcome to my tools repository. I will share tools that I have used professionally to automate tasks or streamline workflows.
 
-## [Barcode Sheet Generator](https://github.com/mhelltt/tools/tree/main/barcodes) ![python](https://staging.python.org/static/community_logos/python-powered-w-200x80.png)
+## [Barcode Sheet Generator](https://github.com/mhelltt/tools/tree/main/barcodes) ![python](https://staging.python.org/static/community_logos/python-powered-w-70x28.png)
 I created this tool to put together barcode sheet pdfs for a clothing brand that I work for. Our manufacturer required that we submit barcodes separated by fit (slim or classic) for each product.
 
 Initially, this was done by hand for each product using an Adobe InDesign template that needed to be re-linked twice for each product. This took forever and required a lot of clicking, so I wrote this program.
@@ -13,7 +13,7 @@ This program:
 * searches a directory of barcode image files and pastes in one barcode repeated per page
 * saves both files as a PDF in an output folder
 
-## [Barcode Sheet Generator for Shoe Box](https://github.com/mhelltt/tools/tree/main/barcodes-shoes) ![python](https://staging.python.org/static/community_logos/python-powered-w-200x80.png)
+## [Barcode Sheet Generator for Shoe Box](https://github.com/mhelltt/tools/tree/main/barcodes-shoes) ![python](https://staging.python.org/static/community_logos/python-powered-w-70x28.png)
 This was a quick adaptation of the previous project that I used to create stickers for the side of a shoebox for several dress shoes products.
 
 This program:
