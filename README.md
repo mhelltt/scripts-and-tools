@@ -1,6 +1,11 @@
 # tools
 
-Welcome to my tools repository. I will share tools that I have used professionally to automate tasks or streamline workflows.
+Welcome to my tools repository. Here are some tools that I have used professionally to automate tasks or streamline workflows.
+
+## [Google Apps Script Functions](https://github.com/mhelltt/tools/tree/main/google-apps-script) ![google apps script logo](https://upload.wikimedia.org/wikipedia/commons/f/f2/Google_Apps_Script.png)
+Both of these connect our Warehouse Management System, SkuVault, to Google Sheets to pull in current availabilities and current warehouse locations.
+
+API tokens must be provided. Both of these scripts created multiple POST requests for paginated JSON data using the UrlFetchApp.fetchAll() method. The JSON data is then parsed and certain columns are fed into an array that is later pushed into Google Sheets.
 
 ## [Barcode Sheet Generator](https://github.com/mhelltt/tools/tree/main/barcodes) ![python](https://staging.python.org/static/community_logos/python-powered-w-70x28.png)
 I created this tool to put together barcode sheet pdfs for a clothing brand that I work for. Our manufacturer required that we submit barcodes separated by fit (slim or classic) for each product.
