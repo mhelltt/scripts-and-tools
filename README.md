@@ -1,6 +1,6 @@
 # scripts-and-tools
 
-Welcome to my tools repository. Here are some tools that I have used professionally to automate tasks or streamline workflows.
+Here are some scripts and tools that I have used professionally to automate tasks or streamline workflows.
 
 ## [Google Apps Script Functions](https://github.com/mhelltt/tools/tree/main/google-apps-script) ![google apps script logo](https://github.com/mhelltt/scripts-and-tools/blob/main/images/gapps-script-logo.png)
 Both of these connect our Warehouse Management System, SkuVault, to Google Sheets to pull in current availabilities and current warehouse locations.
