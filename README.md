@@ -1,4 +1,4 @@
-# tools
+# scripts-and-tools
 
 Welcome to my tools repository. Here are some tools that I have used professionally to automate tasks or streamline workflows.
 
