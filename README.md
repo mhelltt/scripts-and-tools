@@ -3,21 +3,19 @@
 Here are some scripts and tools that I have used professionally to automate tasks or streamline workflows.
 
 ## [Google Apps Script Functions](https://github.com/mhelltt/tools/tree/main/google-apps-script) ![google apps script logo](https://github.com/mhelltt/scripts-and-tools/blob/main/images/gapps-script-logo.png)
-Both of these connect our Warehouse Management System, SkuVault, to Google Sheets to pull in current availabilities and current warehouse locations.
+Both of these Google Apps Script functions connect our SkuVault, our Warehouse Management System, to Google Sheets by sending POST requests to the appropriate SkuVault API endpoint. JSON response data is paginated and must be pulled in multiple requests before it is parsed, compiled, and fed into the target Google Sheet.
 
 ![skuvault logo](https://github.com/mhelltt/scripts-and-tools/blob/main/images/skuvault-logo.png) ⇢ ![google sheets logo](https://github.com/mhelltt/scripts-and-tools/blob/main/images/google-sheets-logo.png)
 
-API tokens must be provided. Both of these scripts created multiple POST requests for paginated JSON data using the UrlFetchApp.fetchAll() method. The JSON data is then parsed and certain columns are fed into an array that is later pushed into Google Sheets.
-
 ## [Barcode Sheet Generator](https://github.com/mhelltt/tools/tree/main/barcodes) ![python](https://github.com/mhelltt/scripts-and-tools/blob/main/images/python-logo.png)
-I created this tool to put together barcode sheet pdfs for a clothing brand that I work for. Our manufacturer required that we submit barcodes separated by fit (slim or classic) for each product.
+This python script creates pdfs with barcodes for a clothing brand that I work for. Our manufacturer required that we submit a two barcode sheets for each product, one for all of the 'Slim Fit' sizes and another for all the 'Classic Fit' sizes.
 
-Initially, this was done by hand for each product using an Adobe InDesign template that needed to be re-linked twice for each product. This took forever and required a lot of clicking, so I wrote this program.
+Initially, this was done by hand for each product using an Adobe InDesign template that needed to be re-linked twice for each product. This took forever and required a lot of click-click-click-clicking, so I wrote this script.
 
 This program:  
 * takes a csv input file with SKU's, Titles, and Product Names
 * creates 2 template files for each product
-* searches a directory of barcode image files and pastes in one barcode repeated per page
+* searches a directory of barcode image files and pastes in one sku-barcode table per page
 * saves both files as a PDF in an output folder
 
 ## [Barcode Sheet Generator for Shoe Box](https://github.com/mhelltt/tools/tree/main/barcodes-shoes) ![python](https://github.com/mhelltt/scripts-and-tools/blob/main/images/python-logo.png)
