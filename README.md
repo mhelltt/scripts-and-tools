@@ -3,9 +3,18 @@
 Here are some scripts and tools that I have used professionally to automate tasks or streamline workflows.
 
 ## [Google Apps Script Functions](https://github.com/mhelltt/tools/tree/main/google-apps-script) ![google apps script logo](https://github.com/mhelltt/scripts-and-tools/blob/main/images/gapps-script-logo.png)
-Both of these Google Apps Script functions connect our SkuVault, our Warehouse Management System, to Google Sheets by sending POST requests to the appropriate SkuVault API endpoint. JSON response data is paginated and must be pulled in multiple requests before it is parsed, compiled, and fed into the target Google Sheet.
+Both of these Google Apps Script functions connect our our Warehouse Management System (WMS), SkuVault, to Google Sheets by sending POST requests to the SkuVault API endpoints. 
+
+JSON response data is paginated and must be pulled in multiple requests before it is parsed, compiled, and fed into the target Google Sheet.
 
 ![skuvault logo](https://github.com/mhelltt/scripts-and-tools/blob/main/images/skuvault-logo.png) ⇢ ![google sheets logo](https://github.com/mhelltt/scripts-and-tools/blob/main/images/google-sheets-logo.png)
+
+```
+    var CurrentInventory = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("CurrentInventory");
+    var range = CurrentInventory.getRange("A2:B");
+    range.clearContent()
+    CurrentInventory.getRange(2,1,data.length,data[0].length).setValues(data)
+```
 
 ## [Barcode Sheet Generator](https://github.com/mhelltt/tools/tree/main/barcodes) ![python](https://github.com/mhelltt/scripts-and-tools/blob/main/images/python-logo.png)
 This python script creates pdfs with barcodes for a clothing brand that I work for. Our manufacturer required that we submit a two barcode sheets for each product, one for all of the 'Slim Fit' sizes and another for all the 'Classic Fit' sizes.
